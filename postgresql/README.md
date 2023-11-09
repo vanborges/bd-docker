@@ -25,7 +25,7 @@
   ```shell
   docker run -d --name postgres-server-container -p 5432:5432 postgres-server-img
   ```
-  Pronto! Agora tempos um container que podemos acessar o servidor PostgreSQL por qualquer interface cliente.
+  Pronto! Agora temos um container que podemos acessar o servidor PostgreSQL por qualquer interface cliente.
 
 - Nosso proximo passo é abrir o pgadmin instalado em cada máquina e configurar um novo server que se conecte a esse container que acabamos de criar.
   - Abra o pgadmin
